@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-size: 35px;
+    color: #93a8ac;
+
+}
+#application {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1000;
+}
+.calc{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 580px;
+    width: 100%;
+    max-width: 420px;
+}
+.result-wrapper{
+    height: 180px;
+    width: 100%;
+    background-color: #475762;
+}
+.result-wrapper-padding{
+    padding: 50px 20px 40px 0;
+    display: block;
+    text-align: right;
+}
+
+.result-wrapper .history{
+    font-size: 25px;
+    display: block;
+    text-align: right;
+}
+
+.result-wrapper .result{
+    font-size: 55px;
+    color: #fff;
+}
+.buttons-wrapper{
+
+}
+.btn{
+    cursor: pointer;
+    height: 80px;
+    background-color: #ffffff;
+    border: none;
+    line-height: 80px;
+    text-align: center;
+    width: 25%;
+    float: left;
+    font-size: 35px;
+    padding: 0;
+    font-family: "Roboto";
+    color: #93a8ac;
+}
+.btn-gray{
+    background-color: #e5e5e5;
+    color: #fff;
+}
+
+.btn-green{
+    background-color: #00ad7c;
+    color: #fff;
+}
+.btn-delete{
+    background: url("../image/delete.png") no-repeat;
+    background-position: center center;
+}
+.btn-delete:hover{
+    background-color: #93a8ac;
+    color: #fff;
+    background: url("../image/delete-hover.png") no-repeat;
+    background-position: center center;
+}
+.btn-delete:focus,
+.btn-delete:visited{
+    background-color: #ffffff;
+    color: #93a8ac;
+    background: url("../image/delete.png") no-repeat;
+    background-position: center center;
+    outline: none;
+}
+.btn:hover{
+    background-color: #93a8ac;
+    color: #fff
+}
+.btn:focus,
+.btn:visited{
+    background-color: #ffffff;
+    color: #93a8ac;
+    outline: none;
+}
+
+.btn-green:hover{
+    background-color: #009067;
+    color: #fff;
+}
+.btn-green:focus,
+.btn-green:visited{
+    outline: none;
+    background-color: #00ad7c;
+    color: #fff;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
