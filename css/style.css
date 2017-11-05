@@ -16,7 +16,7 @@ body{
     background-color: #fff;
     z-index: 1000;
 }
-.calc{
+/*.calc{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,7 +26,7 @@ body{
     height: 580px;
     width: 100%;
     max-width: 420px;
-}
+}*/
 .result-wrapper{
     height: 180px;
     width: 100%;
@@ -86,8 +86,7 @@ body{
 }
 .btn-delete:focus,
 .btn-delete:visited{
-    background-color: #ffffff;
-    color: #93a8ac;
+
     background: url("../image/delete.png") no-repeat;
     background-position: center center;
     outline: none;
@@ -98,8 +97,6 @@ body{
 }
 .btn:focus,
 .btn:visited{
-    background-color: #ffffff;
-    color: #93a8ac;
     outline: none;
 }
 
@@ -110,8 +107,6 @@ body{
 .btn-green:focus,
 .btn-green:visited{
     outline: none;
-    background-color: #00ad7c;
-    color: #fff;
 }
 
 .clearfix:after {
